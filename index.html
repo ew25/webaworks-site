@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WEBA WORKS S.L.</title>
+  <meta name="description" content="WEBA WORKS S.L. is an independent software studio based in Barcelona, building consumer and SMB products.">
+  <link rel="canonical" href="https://webaworks.com/">
+  <meta property="og:title" content="WEBA WORKS S.L.">
+  <meta property="og:description" content="Independent software studio based in Barcelona.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://webaworks.com/">
+  <style>
+    :root {
+      --ink: #111;
+      --muted: #5a5a5a;
+      --line: #e6e6e6;
+      --bg: #ffffff;
+      --accent: #0f3a8c;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 80px 24px 64px;
+    }
+    header.brand {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 28px;
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin: 0 0 6px;
+    }
+    header.brand .sub {
+      color: var(--muted);
+      font-size: 16px;
+      margin: 0;
+    }
+    section { margin: 36px 0; }
+    h2 {
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin: 0 0 12px;
+    }
+    p { margin: 0 0 12px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul.products {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul.products li {
+      padding: 6px 0;
+      color: var(--ink);
+    }
+    ul.products li span.muted {
+      color: var(--muted);
+    }
+    dl.legal {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 8px 16px;
+      margin: 0;
+    }
+    dl.legal dt {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    dl.legal dd {
+      margin: 0;
+      font-size: 15px;
+    }
+    @media (max-width: 540px) {
+      main { padding: 48px 20px 48px; }
+      h1 { font-size: 26px; }
+      dl.legal {
+        grid-template-columns: 1fr;
+        gap: 2px 0;
+      }
+      dl.legal dt { margin-top: 10px; }
+    }
+    footer {
+      border-top: 1px solid var(--line);
+      margin-top: 48px;
+      padding-top: 20px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header class="brand">
+      <h1>WEBA WORKS S.L.</h1>
+      <p class="sub">Independent software studio. Barcelona, Spain.</p>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>WEBA WORKS S.L. is a Spanish private limited company founded and operated by Erik Wedel. The company designs, builds, and operates consumer and SMB software products across web and mobile.</p>
+    </section>
+
+    <section>
+      <h2>Products</h2>
+      <ul class="products">
+        <li><strong>Examper</strong> <span class="muted">— exam preparation for Spanish recreational boating licenses (PER / PNB).</span></li>
+        <li><strong>Care Market</strong> <span class="muted">— marketplace for care services.</span></li>
+        <li><strong>Demand Aggregator</strong> <span class="muted">— demand aggregation platform.</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>General enquiries: <a href="mailto:ewb@webaworks.com">ewb@webaworks.com</a></p>
+    </section>
+
+    <section>
+      <h2>Legal information</h2>
+      <dl class="legal">
+        <dt>Company name</dt>
+        <dd>WEBA WORKS S.L.</dd>
+
+        <dt>NIF / VAT</dt>
+        <dd>B88754148</dd>
+
+        <dt>Registered address</dt>
+        <dd>Calle Llull 200, 6&ordm;-4&ordf;<br>08005 Barcelona<br>Spain</dd>
+
+        <dt>Contact email</dt>
+        <dd><a href="mailto:ewb@webaworks.com">ewb@webaworks.com</a></dd>
+      </dl>
+    </section>
+
+    <footer>
+      &copy; <span id="year">2026</span> WEBA WORKS S.L. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
